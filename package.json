@@ -1,0 +1,22 @@
+{
+  "name": "nasdaq-tickers",
+  "version": "1.0.0",
+  "description": "The full collection of Nasdaq Tickers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nasdaq",
+    "tickers",
+    "stocks",
+    "stock",
+    "market",
+    "market",
+    "trading",
+    "stock",
+    "list"
+  ],
+  "author": "Braden Hancock",
+  "license": "MIT"
+}
