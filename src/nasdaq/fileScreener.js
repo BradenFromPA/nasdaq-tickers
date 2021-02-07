@@ -8,7 +8,7 @@ const screener = (callback) => {
   var unfinishedBuffer = [];
   var completedBuffer = [];
 
-  var file = fs.readFileSync('src/fileGenerator/nasdaq_screener_1.txt', 'utf-8');
+  var file = fs.readFileSync('src/nasdaq/nasdaq_screener_1.txt', 'utf-8');
     var stringFile = file.toString();
     var splitFile = stringFile.split(/\n/)
     
@@ -35,7 +35,7 @@ const screener = (callback) => {
 const writeToFile = (data) => {
   var writableData = JSON.stringify(data);
 
-  fs.writeFile('src/fileGenerator/nasdaq_screener_1_json.txt', writableData, (err) => {
+  fs.writeFile('src/nasdaq/nasdaq_screener_1_json.txt', writableData, (err) => {
     if (err) throw err;
   })
 };
