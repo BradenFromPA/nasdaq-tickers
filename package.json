@@ -18,5 +18,8 @@
     "list"
   ],
   "author": "Braden Hancock",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
